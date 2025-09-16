@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <ConstructionBanner />
     <Navigation />
     <main class="main-content">
       <router-view />
@@ -9,6 +10,7 @@
 
 <script setup lang="ts">
 import Navigation from './Components/Navigation.vue'
+import ConstructionBanner from './Components/ConstructionBanner.vue'
 // App principal Vue 3
 </script>
 

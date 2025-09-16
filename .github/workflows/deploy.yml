@@ -1,0 +1,70 @@
+# Workflow pour déployer automatiquement le portfolio Vue.js sur GitHub Pages
+name: Deploy Portfolio to GitHub Pages
+
+on:
+  # Déclenche le workflow lors des push sur main
+  push:
+    branches: [ main ]
+  
+  # Permet de déclencher manuellement le workflow
+  workflow_dispatch:
+
+# Définit les permissions nécessaires pour le déploiement
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Évite les exécutions concurrentes
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  # Job de build
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    # Étape 1: Récupérer le code source
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    
+    # Étape 2: Configurer Node.js
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+    
+    # Étape 3: Installer les dépendances
+    - name: Install dependencies
+      run: npm ci
+    
+    # Étape 4: Builder l'application Vue.js
+    - name: Build application
+      run: npm run build
+    
+    # Étape 5: Configurer les pages GitHub
+    - name: Setup Pages
+      uses: actions/configure-pages@v4
+    
+    # Étape 6: Uploader l'artifact pour le déploiement
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: './dist'
+
+  # Job de déploiement (dépend du build)
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    
+    runs-on: ubuntu-latest
+    needs: build
+    
+    steps:
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4

@@ -1,0 +1,148 @@
+<template>
+  <div class="construction-banner">
+    <div class="banner-content">
+      <div class="banner-icon">
+        🚧
+      </div>
+      <div class="banner-text">
+        <h4>Portfolio en cours de finalisation</h4>
+        <p>Ce site est actuellement en développement. Nouvelles fonctionnalités à venir !</p>
+      </div>
+    </div>
+    <div class="progress-bar">
+      <div class="progress-fill"></div>
+    </div>
+  </div>
+</template>
+
+<script setup lang="ts">
+// Composant bannière de construction
+</script>
+
+<style scoped>
+.construction-banner {
+  background: linear-gradient(135deg, #f39c12, #e67e22);
+  color: var(--color-text-inverse);
+  box-shadow: var(--shadow-lg);
+  position: relative;
+  z-index: var(--z-navigation);
+  animation: slideDown 0.5s ease-out;
+}
+
+.banner-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-md) var(--spacing-xl);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.banner-icon {
+  font-size: var(--font-size-3xl);
+  margin-right: var(--spacing-lg);
+  animation: bounce 2s infinite;
+}
+
+.banner-text {
+  flex: 1;
+}
+
+.banner-text h4 {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
+  margin-bottom: var(--spacing-xs);
+}
+
+.banner-text p {
+  font-size: var(--font-size-sm);
+  opacity: 0.9;
+  margin: 0;
+}
+
+
+
+.progress-bar {
+  height: 3px;
+  background: rgba(255, 255, 255, 0.2);
+  position: relative;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  width: 75%; /* Simule 75% de progression */
+  animation: progressPulse 2s ease-in-out infinite alternate;
+}
+
+/* Animations */
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-8px);
+  }
+  60% {
+    transform: translateY(-4px);
+  }
+}
+
+@keyframes progressPulse {
+  0% {
+    opacity: 0.6;
+    transform: scaleX(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: scaleX(1);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .banner-content {
+    padding: var(--spacing-sm) var(--spacing-md);
+    flex-direction: column;
+    text-align: center;
+    gap: var(--spacing-md);
+  }
+  
+  .banner-icon {
+    margin-right: 0;
+    margin-bottom: var(--spacing-sm);
+  }
+  
+
+  
+  .banner-text h4 {
+    font-size: var(--font-size-base);
+  }
+  
+  .banner-text p {
+    font-size: var(--font-size-xs);
+  }
+}
+
+@media (max-width: 480px) {
+  .banner-content {
+    padding: var(--spacing-sm);
+  }
+  
+  .banner-text h4 {
+    font-size: var(--font-size-sm);
+  }
+}
+</style>
