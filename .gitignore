@@ -1,0 +1,211 @@
+# ===================================
+# GITIGNORE POUR PORTFOLIO VUE.JS
+# ===================================
+
+# ===================================
+# DEPENDENCIES & NODE_MODULES
+# ===================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ===================================
+# BUILD & DISTRIBUTION
+# ===================================
+dist/
+dist-ssr/
+build/
+*.local
+
+# ===================================
+# ENVIRONMENT & CONFIG
+# ===================================
+# Variables d'environnement
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ===================================
+# CACHE & TEMPORARY FILES
+# ===================================
+# Cache Vite
+.vite/
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Cache TypeScript
+*.tsbuildinfo
+
+# Cache ESLint
+.eslintcache
+
+# Cache diverses
+.cache/
+.parcel-cache/
+.nyc_output/
+
+# ===================================
+# LOGS
+# ===================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ===================================
+# COVERAGE & TESTS
+# ===================================
+coverage/
+*.lcov
+.nyc_output/
+jest-coverage/
+
+# ===================================
+# EDITOR & IDE
+# ===================================
+# Visual Studio Code
+.vscode/*
+!.vscode/extensions.json
+
+# WebStorm / IntelliJ
+.idea/
+*.swp
+*.swo
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+*.swp
+*.swo
+*~
+
+# ===================================
+# OS GENERATED FILES
+# ===================================
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ===================================
+# DOCUMENTS PERSONNELS
+# ===================================
+# Fichiers CV personnels (exclure les vrais CV)
+CV-*.pdf
+CV-*.doc
+CV-*.docx
+# Mais garder les versions publiques du portfolio
+!public/CV-*.html
+!public/CV-*.txt
+
+# Photos personnelles
+photos-perso/
+images-privees/
+*.personal.*
+
+# ===================================
+# SECURITY & CREDENTIALS
+# ===================================
+# Clés et certificats
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# Fichiers de configuration avec secrets
+config/secrets.*
+.secrets/
+secrets.json
+
+# ===================================
+# BACKUP & TEMPORARY
+# ===================================
+*.bak
+*.backup
+*.tmp
+*.temp
+
+# ===================================
+# DEPLOYMENT & CI/CD
+# ===================================
+# Vercel
+.vercel/
+
+# Netlify
+.netlify/
+
+# Firebase
+.firebase/
+firebase-debug.log
+
+# ===================================
+# PACKAGE MANAGERS
+# ===================================
+# Yarn
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# ===================================
+# NOTES PERSONNELLES
+# ===================================
+NOTES.md
+TODO-PERSO.md
+notes-dev/
+brouillon/
+draft/
+
+# ===================================
+# MISC
+# ===================================
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.tgz
+*.tar.gz
