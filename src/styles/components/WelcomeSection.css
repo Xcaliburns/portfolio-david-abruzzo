@@ -1,0 +1,159 @@
+/* WelcomeSection Component Styles */
+
+/* Section de bienvenue */
+.welcome-section {
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-accent) 100%);
+  padding: var(--spacing-2xl) var(--spacing-xl);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.welcome-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="25" cy="25" r="1" fill="rgba(255,255,255,0.1)"/><circle cx="75" cy="75" r="1" fill="rgba(255,255,255,0.05)"/><circle cx="50" cy="10" r="0.5" fill="rgba(255,255,255,0.1)"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>');
+  opacity: 0.3;
+}
+
+.welcome-content {
+  position: relative;
+  z-index: 2;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.welcome-animation {
+  animation: fadeInUp 1.2s ease-out;
+}
+
+.welcome-title {
+  font-size: var(--font-size-4xl);
+  color: white;
+  margin-bottom: var(--spacing-md);
+  font-weight: var(--font-weight-bold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-md);
+  flex-wrap: wrap;
+}
+
+.wave {
+  display: inline-block;
+  animation: wave 2s infinite;
+  font-size: var(--font-size-5xl);
+}
+
+.text-gradient {
+  background: linear-gradient(45deg, #fff, #f39c12, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: shimmer 3s infinite;
+}
+
+.welcome-subtitle {
+  font-size: var(--font-size-lg);
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: var(--spacing-xl);
+  animation: fadeIn 1.5s ease-out 0.3s both;
+}
+
+.welcome-dots {
+  display: flex;
+  justify-content: center;
+  gap: var(--spacing-sm);
+  animation: fadeIn 1.8s ease-out 0.6s both;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  animation: bounce 1.4s infinite;
+}
+
+.dot:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.dot:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes wave {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(20deg);
+  }
+  75% {
+    transform: rotate(-10deg);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .welcome-section {
+    padding: var(--spacing-xl) var(--spacing-md);
+  }
+  
+  .welcome-title {
+    font-size: var(--font-size-3xl);
+    flex-direction: column;
+    gap: var(--spacing-sm);
+  }
+  
+  .welcome-subtitle {
+    font-size: var(--font-size-base);
+  }
+}
