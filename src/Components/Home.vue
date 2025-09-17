@@ -1,4 +1,5 @@
 <template>
+  <WelcomeSection />
   <section class="home">
     <h1>David Abruzzo</h1>
     <h2>Développeur Web & Logiciel</h2>
@@ -24,6 +25,7 @@
 </template>
 
 <script setup lang="ts">
+import WelcomeSection from './WelcomeSection.vue'
 // Page d'accueil du portfolio
 </script>
 

@@ -1,14 +1,9 @@
 <template>
   <div id="app">
     <ConstructionBanner />
-    
-  
-    
     <Navigation />
-    <WelcomeSection />
     <main class="main-content">
-      <Home />
-      
+      <router-view />
     </main>
   </div>
 </template>
@@ -16,8 +11,6 @@
 <script setup lang="ts">
 import Navigation from './Components/Navigation.vue'
 import ConstructionBanner from './Components/ConstructionBanner.vue'
-import WelcomeSection from './Components/WelcomeSection.vue'
-import Home from './Components/Home.vue'
 // App principal Vue 3
 </script>
 
