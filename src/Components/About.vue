@@ -56,8 +56,7 @@
             <ul>
               <li><strong>Unity 3D</strong></li>
               <li><strong>Blender (Modélisation)</strong></li>
-              <li><strong>Game Design</strong></li>
-              <li><strong>Animation 2D/3D</strong></li>
+              <li><strong>Game Design</strong></li>              
             </ul>
           </div>
         </div>
