@@ -36,7 +36,7 @@ Ce portfolio est en cours d’amélioration. Certaines sections peuvent être in
 
 ## 🔗 Accès en ligne
 
-👉 [Voir le portfolio déployé](https://xcaliburns.github.io/portfolio-david-abruzzo/projects)
+👉 [Voir le portfolio déployé](https://xcaliburns.github.io/portfolio-david-abruzzo)
 
 ---
 
