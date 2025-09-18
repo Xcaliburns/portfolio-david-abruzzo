@@ -1,67 +1,22 @@
 <template>
   <section class="projects">
     <h1>Mes Projets</h1>
-    
-    <!-- <div class="projects-intro">
-      <p>Chaque projet est présenté avec sa vidéo YouTube dédiée, le code source et des visuels détaillés.</p>
-      <div class="youtube-info">
-        <p class="youtube-note">🎬 Retrouvez toutes mes vidéos sur ma chaîne :</p>
-        <a href="https://www.youtube.com/@davidabruzzo7327" target="_blank" rel="noopener noreferrer" class="youtube-channel-link">
-          🎥 @davidabruzzo7327
-        </a>
-      </div>
-    </div> -->
 
-    <!-- <div class="project-card">
-      <div class="project-header">
-        <h2>🎮 Jeu Unity 2D – Game Jam</h2>
-        <div class="project-tags">
-          <span class="tag">Unity</span>
-          <span class="tag">C#</span>
-          <span class="tag">Game Development</span>
-        </div>
-      </div>
-      
-      <div class="project-content">
-        <div class="project-description">
-          <p>Petit jeu développé avec Unity et C# dans le cadre d'une Game Jam. Animation, logique de gameplay et publication sur itch.io. Ce projet démontre mes compétences en développement de jeux, en animation et en programmation orientée objet.</p>
-        </div>
-        
-        <div class="project-media">
-          <div class="video-container">
-            <iframe 
-              src="https://www.youtube.com/embed/KUJCyjT9TX4" 
-              title="Jeu Unity 2D - Game Jam"
-              frameborder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-              allowfullscreen>
-            </iframe>
-          </div>
-          <div class="project-images-placeholder">
-            <div class="image-placeholder">
-              📸 Screenshot du jeu Unity<br>
-              <small>(Ajouter: unity-game-screenshot1.jpg)</small>
-            </div>
-            <div class="image-placeholder">
-              📸 Gameplay du jeu Unity<br>
-              <small>(Ajouter: unity-game-screenshot2.jpg)</small>
-            </div>
-          </div>
-        </div>
-        
-        <div class="project-links">
-          <a href="https://www.youtube.com/watch?v=KUJCyjT9TX4" target="_blank" rel="noopener noreferrer" class="project-link video-link">
-            🎥 Voir la vidéo
-          </a>
-          <a href="#" target="_blank" class="project-link github-link">
-            📂 Code source (GitHub)
-          </a>
-          <a href="#" target="_blank" class="project-link demo-link">
-            🎮 Jouer sur itch.io
-          </a>
-        </div>
-      </div>
-    </div> -->
+    <div class="projects-intro">
+      <p>Chaque projet est présenté avec sa vidéo YouTube dédiée, le code source et des visuels détaillés et/ou de la documentation.</p>
+      <!-- <div class="youtube-info">
+        <p class="youtube-note">🎬 Toutes les présntations :</p>
+        <a href="https://www.youtube.com/@davidabruzzo7327" target="_blank" rel="noopener noreferrer"
+          class="youtube-channel-link">
+          🎥 @davidabruzzo
+        </a>
+        <p class="youtube-note">🎬 Toutes les présntations :</p>
+        <a href="https://www.youtube.com/@davidabruzzo7327" target="_blank" rel="noopener noreferrer"
+          class="youtube-channel-link">
+          🎥 @davidabruzzo
+        </a>
+      </div> -->
+    </div>
 
     <div class="project-card">
       <div class="project-header">
@@ -78,52 +33,52 @@
           <span class="tag">SQL Server</span>
         </div>
       </div>
-      
+
       <div class="project-content">
         <div class="project-description">
           <p>Le projet consiste à :
 
-Concevoir et développer une architecture en microservices
+            Concevoir et développer une architecture en microservices
 
-Normaliser et accepter des données dans une base de données
+            Normaliser et accepter des données dans une base de données
 
-Utiliser des bases de données NoSQL
+            Utiliser des bases de données NoSQL
 
-Ce projet m’a permis d’approfondir mes compétences en architecture distribuée, en scalabilité, et en maintenabilité des applications.
+            Ce projet m’a permis d’approfondir mes compétences en architecture distribuée, en scalabilité, et en
+            maintenabilité des applications.
 
-🧰 Technologies utilisées : .NET, C#, MongoDB, SQL Server, REST API, Docker</p>
+            🧰 Technologies utilisées : .NET, C#, MongoDB, SQL Server, REST API, Docker</p>
         </div>
-        
+
         <div class="project-media">
           <div class="video-container">
-            <iframe 
-              src="https://www.youtube.com/embed/z5jchojtsHA" 
-              title="API sécurisée en .NET "
-              frameborder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            <iframe src="https://www.youtube.com/embed/z5jchojtsHA" title="API sécurisée en .NET " frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen>
             </iframe>
           </div>
           <div class="project-images-placeholder">
             <div class="image-placeholder">
-              📸 Interface Swagger de l'API .NET<br>
-              <small>(Ajouter: dotnet-api-swagger.jpg)</small>
+              <img src="/images/projects/SchemaProjet10.png" alt="Schema général de l'application" />
             </div>
-            <div class="image-placeholder">
-              📸 Architecture de l'API .NET<br>
-              <small>(Ajouter: dotnet-api-architecture.jpg)</small>
+             <div class="image-placeholder">
+              <img src="/images/projects/Illustration2Projet10.png" alt="liste des patients" />
+            </div>
+             <div class="image-placeholder">
+              <img src="/images/projects/IllustrationProjet10.png" alt="notes du patients" />
             </div>
           </div>
         </div>
-        
+
         <div class="project-links">
-          <a href="#" target="_blank" class="project-link github-link">
+          <a href="https://github.com/Xcaliburns/MedilaboSolutions" target="_blank" class="project-link github-link">
             📂 Code source (GitHub)
           </a>
-          <a href="https://www.youtube.com/watch?v=z5jchojtsHA" target="_blank" rel="noopener noreferrer" class="project-link video-link">
+          <a href="https://www.youtube.com/watch?v=z5jchojtsHA" target="_blank" rel="noopener noreferrer"
+            class="project-link video-link">
             🎥 Voir la Présentation
           </a>
-                 </div>
+        </div>
       </div>
     </div>
 
@@ -134,57 +89,58 @@ Ce projet m’a permis d’approfondir mes compétences en architecture distribu
           <span class="tag">C#</span>
           <span class="tag">.Net</span>
           <span class="tag">Github Actions</span>
-          <span class="tag">Unit tests</span>   
-         
+          <span class="tag">Unit tests</span>
+
         </div>
       </div>
-      
+
       <div class="project-content">
         <div class="project-description">
           <p>Le projet consiste à :
 
-Analyser les besoins du client pour améliorer une application existante
+            Analyser les besoins du client pour améliorer une application existante.
+            Utilisation de méthodes asynchrones et de la programmation parallèle afin d'améliorer les performances.
 
-Mettre en place un pipeline CI/CD pour automatiser les tests et le déploiement
+            Mettre en place un pipeline CI/CD pour automatiser les tests et le déploiement
 
-Documenter techniquement et fonctionnellement l’application
+            Documenter techniquement et fonctionnellement l’application
 
-Mesurer les performances et identifier les points d’amélioration
+            Mesurer les performances et identifier les points d’amélioration.
+            Ce projet m’a permis de développer mes compétences en systèmes distribués, en déploiement automatisé, et en
+            résilience applicative.
 
-Ce projet m’a permis de développer mes compétences en systèmes distribués, en déploiement automatisé, et en résilience applicative.
-
-🧰 Technologies utilisées : .NET, C#, CI/CD, SQL Server, MongoDB</p>
+            🧰 Technologies utilisées : .NET, C#, CI/CD, SQL Server, MongoDB</p>
         </div>
-        
+
         <div class="project-media">
           <div class="video-container">
-            <iframe 
-              src="https://www.youtube.com/embed/yp84Y_ybFx0" 
-              title="Amelioration d'une application avec des systemes distribués"
-              frameborder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            <iframe src="https://www.youtube.com/embed/yp84Y_ybFx0"
+              title="Amelioration d'une application avec des systemes distribués" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen>
             </iframe>
           </div>
           <div class="project-images-placeholder">
             <div class="image-placeholder">
-              📸 Page d'accueil de l'application React<br>
-              <small>(Ajouter: react-app-home.jpg)</small>
+              <img src="/images/projects/DiagrammeDeClasseP8.png" alt="Schema général de l'application" />
             </div>
-            <div class="image-placeholder">
-              📸 Dashboard de l'application React<br>
-              <small>(Ajouter: react-app-dashboard.jpg)</small>
+             <div class="image-placeholder">
+              <img src="/images/projects/ResultatsP8.png" alt="resultats d'amelioration" />
+            </div>
+             <div class="image-placeholder">
+              <img src="/images/projects/CouvertureTestsP8.png" alt="couverture de tests coverlet" />
             </div>
           </div>
         </div>
-        
+
         <div class="project-links">
-          <a href="#" target="_blank" class="project-link github-link">
+          <a href="https://github.com/Xcaliburns/backend-dot-NET_P8" target="_blank" class="project-link github-link">
             📂 Code source (GitHub)
           </a>
-          <a href="https://www.youtube.com/watch?v=yp84Y_ybFx0" target="_blank" rel="noopener noreferrer" class="project-link video-link">
+          <a href="https://www.youtube.com/watch?v=yp84Y_ybFx0" target="_blank" rel="noopener noreferrer"
+            class="project-link video-link">
             🎥 Voir la Présentation
-          </a>          
+          </a>
         </div>
       </div>
     </div>
@@ -203,37 +159,48 @@ Ce projet m’a permis de développer mes compétences en systèmes distribués,
 
         </div>
       </div>
-      
+
       <div class="project-content">
         <div class="project-description">
           <p>Implémenter une API REST en respectant les principes de conception RESTful
 
-Structurer l’API pour qu’elle soit intuitive, modulable et maintenable
+            Structurer l’API pour qu’elle soit intuitive, modulable et maintenable
 
-Garantir la sécurité, la performance et la scalabilité du back-end
+            Garantir la sécurité, la performance et la scalabilité du back-end
 
-Ce projet m’a permis de consolider mes compétences en développement d’API, en architecture logicielle, et en communication client-serveur.
+            Ce projet m’a permis de consolider mes compétences en développement d’API, en architecture logicielle, et en
+            communication client-serveur.
 
-🧰 Technologies utilisées : ASP.NET Core, C#, REST, SQL Server, Entity Framework</p>
+            🧰 Technologies utilisées : ASP.NET Core, C#, REST, SQL Server, Entity Framework</p>
         </div>
-        
+
         <div class="project-media">
           <div class="video-container">
-            <iframe 
-              src="https://www.youtube.com/embed/OKC2xe5O8L0" 
-              title="Projet de développement web - Démonstration"
-              frameborder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            <iframe src="https://www.youtube.com/embed/OKC2xe5O8L0" title="Projet de développement web - Démonstration"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen>
             </iframe>
           </div>
         </div>
-        
+         <div class="project-images-placeholder">
+            <div class="image-placeholder">
+              <img src="/images/projects/SchemaArchitecturep7.png" alt="Schema général de l'application" />
+            </div>
+             <div class="image-placeholder">
+              <img src="/images/projects/SwaggerP7.png" alt="resultats d'amelioration" />
+            </div>
+             <div class="image-placeholder">
+              <img src="/images/projects/TestExplorerP7.webp" alt="couverture de tests coverlet" />
+            </div>
+          </div>
+
         <div class="project-links">
-          <a href="#" target="_blank" class="project-link github-link">
+          <a href="https://github.com/Xcaliburns/Back-end.NET_API_REST" target="_blank" class="project-link github-link">
             📂 Code source (GitHub)
           </a>
-          <a href="https://www.youtube.com/watch?v=OKC2xe5O8L0" target="_blank" rel="noopener noreferrer" class="project-link video-link">
+          <a href="https://www.youtube.com/watch?v=OKC2xe5O8L0" target="_blank" rel="noopener noreferrer"
+            class="project-link video-link">
             🎥 Voir la Présentation
           </a>
         </div>
@@ -245,43 +212,55 @@ Ce projet m’a permis de consolider mes compétences en développement d’API,
         <h2>Modélisez et créez une base de données pour une application .NET</h2>
         <div class="project-tags">
           <span class="tag">Entity Framework</span>
-          
+
           <span class="tag">Modèle de données</span>
         </div>
       </div>
-      
+
       <div class="project-content">
         <div class="project-description">
           <p>Le projet consiste à :
 
-Concevoir un modèle entité-association adapté aux besoins d’une application
+            Concevoir un modèle entité-association adapté aux besoins d’une application
 
-Créer et remplir une base de données relationnelle
+            Créer et remplir une base de données relationnelle
 
-Rédiger et exécuter des requêtes SQL pour interagir avec les données
+            Rédiger et exécuter des requêtes SQL pour interagir avec les données
 
-Ce projet m’a permis de renforcer mes compétences en modélisation de données, en structuration de schémas SQL, et en optimisation des requêtes pour des applications .NET.
+            Ce projet m’a permis de renforcer mes compétences en modélisation de données, en structuration de schémas
+            SQL, et en optimisation des requêtes pour des applications .NET.
 
-🧰 Technologies utilisées : SQL Server, C#, Entity Framework, .NET</p>
+            🧰 Technologies utilisées : SQL Server, C#, Entity Framework, .NET</p>
         </div>
-        
+
         <div class="project-media">
           <div class="video-container">
-            <iframe 
-              src="https://www.youtube.com/embed/WGgpX56Bhlk" 
-              title="Modélisez et créez une base de données pour une application .NET"
-              frameborder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            <iframe src="https://www.youtube.com/embed/WGgpX56Bhlk"
+              title="Modélisez et créez une base de données pour une application .NET" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen>
             </iframe>
           </div>
         </div>
-        
+
+        <div class="project-images-placeholder">
+            <div class="image-placeholder">
+              <img src="/images/projects/P6ModeleDonneWhimsical.webp" alt="Schema général de l'application" />
+            </div>
+             <div class="image-placeholder">
+              <img src="/images/projects/P6ModeleDonneSqlServer.webp" alt="resultats d'amelioration" />
+            </div>            
+          </div>
+
         <div class="project-links">
-          <a href="#" target="_blank" class="project-link github-link">
+          <a href="https://github.com/Xcaliburns/NexaWorks" target="_blank" class="project-link github-link">
             📂 Code source (GitHub)
           </a>
-          <a href="https://www.youtube.com/watch?v=WGgpX56Bhlk" target="_blank" rel="noopener noreferrer" class="project-link video-link">
+           <a href="https://github.com/Xcaliburns/NexaworksLivrables" target="_blank" class="project-link github-link">
+            📂 Requetes linqPad (Github)
+          </a>
+          <a href="https://www.youtube.com/watch?v=WGgpX56Bhlk" target="_blank" rel="noopener noreferrer"
+            class="project-link video-link">
             🎥 Voir la Présentation
           </a>
         </div>
@@ -299,41 +278,56 @@ Ce projet m’a permis de renforcer mes compétences en modélisation de donnée
           <span class="tag">SQL Server</span>
         </div>
       </div>
-      
+
       <div class="project-content">
         <div class="project-description">
           <p>Le projet consiste à :
 
-Développer une application web complète en ASP .NET Core
+            Développer une application web complète en ASP .NET Core
 
-Implémenter des fonctionnalités spécifiques demandées par un client
+            Implémenter des fonctionnalités spécifiques demandées par un client
 
-Respecter les bonnes pratiques de codage dans un environnement MVC
+            Respecter les bonnes pratiques de codage dans un environnement MVC
 
-Prendre en compte l’accessibilité et l’expérience utilisateur
+            Prendre en compte l’accessibilité et l’expérience utilisateur
 
-Ce projet m’a permis de consolider mes compétences en développement web back-end et front-end, en architecture MVC, et en conception d’interfaces accessibles.
+            Ce projet m’a permis de consolider mes compétences en développement web back-end et front-end, en
+            architecture MVC, et en conception d’interfaces accessibles.
 
-🧰 Technologies utilisées : ASP .NET Core, C#, Razor Pages, HTML/CSS, SQL Server</p>
+            🧰 Technologies utilisées : ASP .NET Core, C#, Razor Pages, HTML/CSS, SQL Server</p>
         </div>
-        
+
         <div class="project-media">
           <div class="video-container">
-            <iframe 
-              src="https://www.youtube.com/embed/Ywbd_VYMEDo" 
-              title="Solution innovante - Résolution de problèmes complexes"
-              frameborder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            <iframe src="https://www.youtube.com/embed/Ywbd_VYMEDo"
+              title="Solution innovante - Résolution de problèmes complexes" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen>
             </iframe>
           </div>
         </div>
-        
+
+         <div class="project-images-placeholder">
+            <div class="image-placeholder">
+              <img src="/images/projects/P5Home.webp" alt="Schema général de l'application" />
+            </div>
+             <div class="image-placeholder">
+              <img src="/images/projects/P5ConfirmationSuppression.png" alt="resultats d'amelioration" />
+            </div>     
+            <div class="image-placeholder">
+              <img src="/images/projects/P5FormulaireAjout.png" alt="resultats d'amelioration" />
+            </div> 
+            <div class="image-placeholder">
+              <img src="/images/projects/P5PageDetails.webp" alt="resultats d'amelioration" />
+            </div>                    
+          </div>
+
         <div class="project-links">
-          <a href="#" target="_blank" class="project-link github-link">
+          <a href="https://github.com/Xcaliburns/ExpressVoitures" target="_blank" class="project-link github-link">
             📂 Code source (GitHub)
           </a>
-          <a href="https://www.youtube.com/watch?v=Ywbd_VYMEDo" target="_blank" rel="noopener noreferrer" class="project-link video-link">
+          <a href="https://github.com/Xcaliburns/ExpressVoitures" target="_blank" rel="noopener noreferrer"
+            class="project-link video-link">
             🎥 Voir la Présentation
           </a>
         </div>
@@ -350,41 +344,49 @@ Ce projet m’a permis de consolider mes compétences en développement web back
           <span class="tag">Cahier des charges</span>
         </div>
       </div>
-      
+
       <div class="project-content">
         <div class="project-description">
           <p>Le projet consiste à:
 
-Analyser les besoins d’un client et rédiger un cahier des charges
+            Analyser les besoins d’un client et rédiger un cahier des charges
 
-Concevoir une solution technique adaptée en .NET
+            Concevoir une solution technique adaptée en .NET
 
-Définir les exigences fonctionnelles et techniques
+            Définir les exigences fonctionnelles et techniques
 
-Mener une veille technologique pour proposer des choix pertinents
+            Mener une veille technologique pour proposer des choix pertinents
 
-Organiser le projet selon une méthode agile
+            Organiser le projet selon une méthode agile
 
-🧰 Technologies abordées : .NET, C#, SQL Server, Entity Framework, Agile, UML</p>
+            🧰 Technologies abordées : .NET, C#, SQL Server, Entity Framework, Agile, UML</p>
         </div>
-        
+
         <div class="project-media">
           <div class="video-container">
-            <iframe 
-              src="https://www.youtube.com/embed/6Z6kBjyAxe0" 
-              title="Projet créatif et technique - UI/UX interactive"
-              frameborder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            <iframe src="https://www.youtube.com/embed/6Z6kBjyAxe0"
+              title="Projet créatif et technique - UI/UX interactive" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen>
             </iframe>
           </div>
         </div>
-        
+
+          <div class="project-images-placeholder">
+            <div class="image-placeholder">
+              <img src="/images/projects/P4DiagrammeClasses.webp" alt="Diagramme de classes" />
+            </div>
+             <div class="image-placeholder">
+              <img src="/images/projects/P4Capture.png" alt="resultats d'amelioration" />
+            </div>                               
+          </div>
+
         <div class="project-links">
-          <a href="#" target="_blank" class="project-link github-link">
-            📂 Code source (GitHub)
+          <a href="https://1drv.ms/w/c/224d00a06f515638/ERv6Abcw6KFGjFvfwcuSG1kBQIdgnv0xTYs64CzKOte13w?e=LdRJMV" target="_blank" class="project-link github-link">
+            📂 Cahier des charges
           </a>
-          <a href="https://www.youtube.com/watch?v=6Z6kBjyAxe0" target="_blank" rel="noopener noreferrer" class="project-link video-link">
+          <a href="https://www.youtube.com/watch?v=6Z6kBjyAxe0" target="_blank" rel="noopener noreferrer"
+            class="project-link video-link">
             🎥 Voir la Présentation
           </a>
         </div>
@@ -404,39 +406,40 @@ Organiser le projet selon une méthode agile
           <span class="tag">Moq</span>
         </div>
       </div>
-      
+
       <div class="project-content">
         <div class="project-description">
           <p>Le projet consiste à :
 
-Implémenter des tests unitaires pour une nouvelle fonctionnalité en C#
+            Implémenter des tests unitaires pour une nouvelle fonctionnalité en C#
 
-Corriger l’application en fonction des résultats des tests
+            Corriger l’application en fonction des résultats des tests
 
-Mettre en place des tests d’intégration pour valider le bon fonctionnement global
+            Mettre en place des tests d’intégration pour valider le bon fonctionnement global
 
-Ce projet m’a permis de renforcer mes compétences en qualité logicielle, en validation fonctionnelle, et en structuration du code pour des applications .NET.
+            Ce projet m’a permis de renforcer mes compétences en qualité logicielle, en validation fonctionnelle, et en
+            structuration du code pour des applications .NET.
 
-🧰 Technologies utilisées : .NET, C#, xUnit, SQL Server, Entity Framework</p>
+            🧰 Technologies utilisées : .NET, C#, xUnit, SQL Server, Entity Framework</p>
         </div>
-        
+
         <div class="project-media">
           <div class="video-container">
-            <iframe 
-              src="https://www.youtube.com/embed/ecuw0GBOTiM" 
-              title="Optimisation et performance - Techniques avancées"
-              frameborder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            <iframe src="https://www.youtube.com/embed/ecuw0GBOTiM"
+              title="Optimisation et performance - Techniques avancées" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen>
             </iframe>
           </div>
-        </div>
+        </div>      
         
+
         <div class="project-links">
-          <a href="#" target="_blank" class="project-link github-link">
+          <a href="https://github.com/Xcaliburns/p3Dotnet" target="_blank" class="project-link github-link">
             📂 Code source (GitHub)
           </a>
-          <a href="https://www.youtube.com/watch?v=ecuw0GBOTiM" target="_blank" rel="noopener noreferrer" class="project-link video-link">
+          <a href="https://www.youtube.com/watch?v=ecuw0GBOTiM" target="_blank" rel="noopener noreferrer"
+            class="project-link video-link">
             🎥 Voir la Pésentation
           </a>
         </div>
@@ -454,37 +457,43 @@ Ce projet m’a permis de renforcer mes compétences en qualité logicielle, en 
 
         </div>
       </div>
-      
+
       <div class="project-content">
         <div class="project-description">
           <p>Le projet consiste à :
 
-Identifier et corriger des bugs dans une application .NET
+            Identifier et corriger des bugs dans une application .NET
 
-Implémenter des tests unitaires et d’intégration en C#
+            Implémenter des tests unitaires et d’intégration en C#
 
-Utiliser Git pour le versionnage et la collaboration
+            Utiliser Git pour le versionnage et la collaboration
 
-🧰 Technologies utilisées : .NET, C#, xUnit, SQL Server, Entity Framework</p>
+            🧰 Technologies utilisées : .NET, C#, xUnit, SQL Server, Entity Framework</p>
         </div>
-        
+
         <div class="project-media">
           <div class="video-container">
-            <iframe 
-              src="https://www.youtube.com/embed/JP6F7mgaFLk" 
-              title="Projet spécialisé - Expertise technique approfondie"
-              frameborder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            <iframe src="https://www.youtube.com/embed/JP6F7mgaFLk"
+              title="Projet spécialisé - Expertise technique approfondie" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen>
             </iframe>
           </div>
         </div>
-        
+
+         <div class="project-images-placeholder">
+            <div class="image-placeholder">
+              <img src="/images/projects/P2Capture.png" alt="Diagramme de classes" />
+            </div>
+                                            
+          </div>
+
         <div class="project-links">
-          <a href="#" target="_blank" class="project-link github-link">
+          <a href="https://github.com/Xcaliburns/DotNetprojet2" target="_blank" class="project-link github-link">
             📂 Code source (GitHub)
           </a>
-          <a href="https://www.youtube.com/watch?v=JP6F7mgaFLk" target="_blank" rel="noopener noreferrer" class="project-link video-link">
+          <a href="https://www.youtube.com/watch?v=JP6F7mgaFLk" target="_blank" rel="noopener noreferrer"
+            class="project-link video-link">
             🎥 Voir la Présentation
           </a>
         </div>
@@ -499,17 +508,20 @@ Utiliser Git pour le versionnage et la collaboration
           <span class="tag">YouTube Channel</span>
         </div>
       </div>
-      
+
       <div class="project-content">
         <div class="project-description">
-          <p>Découvrez l'ensemble de mes projets et tutoriels sur ma chaîne YouTube. Je partage régulièrement mes expérimentations, projets et techniques de développement.</p>
+          <p>Découvrez l'ensemble de mes projets et tutoriels sur ma chaîne YouTube. Je partage régulièrement mes
+            expérimentations, projets et techniques de développement.</p>
         </div>
-        
+
         <div class="project-links">
-          <a href="https://www.youtube.com/@davidabruzzo7327" target="_blank" rel="noopener noreferrer" class="project-link video-link channel-link">
+          <a href="https://www.youtube.com/@davidabruzzo7327" target="_blank" rel="noopener noreferrer"
+            class="project-link video-link channel-link">
             🎥 Ma chaîne YouTube complète
           </a>
-          <a href="https://github.com/Xcaliburns" target="_blank" rel="noopener noreferrer" class="project-link github-link">
+          <a href="https://github.com/Xcaliburns" target="_blank" rel="noopener noreferrer"
+            class="project-link github-link">
             📂 Tous mes repositories GitHub
           </a>
         </div>
